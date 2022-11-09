@@ -1,0 +1,11 @@
+@keyframes rotate {
+  to {
+    transform: rotate(120deg);
+  }
+}
+
+@keyframes transition-purple {
+  to {
+    color: var(--purple);
+  }
+}

@@ -1,0 +1,137 @@
+.settings-button ion-icon {
+  position: absolute;
+  font-size: 25px;
+  left: 15px;
+  bottom: 15px;
+}
+
+.settings-button ion-icon:hover {
+  animation: rotate 1s;
+}
+
+/* ------------------ Header Modal ------------------ */
+
+.closeButton {
+  display: flex;
+  cursor: pointer;
+}
+
+.closeButton ion-icon {
+  color: var(--light-grey-color);
+  font-size: 33px;
+  background-color: white;
+}
+
+.modal-content .header-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 5px;
+  border-bottom: 2px solid rgb(221, 220, 220);
+  height: 60px;
+}
+
+.modal-content .title{
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--light-grey-color);
+}
+
+.line{
+  background-color: rgb(0, 0, 0);
+  width: 50px;
+  height: 2px;
+  border-radius: 4px;
+  margin-top: 10px;
+
+}
+
+/* ------------------ main Modal ------------------ */
+
+.modal-content .main-modal {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.modal-content .main-modal div {
+  display: grid;
+}
+
+.modal-content .main-modal label {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--grey-color);
+}
+
+.modal-content .main-modal input {
+  border: solid 2px var(--light-grey-color);
+  color: var(--grey-color);
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+
+/* ------------------ footer Modal ------------------ */
+
+.footer-modal {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 60px;
+  background-color: rgb(221, 220, 220);
+  border-radius: 0 0 4px 4px;
+}
+
+.footer-content button {
+  background-color: var(--grey-color);
+  height: 35px;
+  min-width: 60px;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  border: none;
+}
+
+
+/* ------------------ Modal ------------------ */
+
+.modal-content {
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow:
+  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 400px;
+  min-height: 204px;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+};
+
+

@@ -1,0 +1,45 @@
+/* ------ COLORS ------ */
+
+.pomodoro-color:root {
+  --main-color: #0b5575;
+  --grey-color: #156586;
+  --light-grey-color: #207698;
+}
+
+.short-break-color:root {
+  --main-color: #5f5786;
+  --grey-color: #716898;
+  --light-grey-color: #8279ab;
+}
+
+.long-break-color:root {
+  --main-color: #035c56;
+  --grey-color: #046d66;
+  --light-grey-color: #018077;
+}
+
+/* --------------------- */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  color: white;
+  overflow-x: hidden
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: var(--main-color);
+  transition: background-color 0.5s ease-in-out 0s;
+}
+
+div#root {
+  width: 100%;
+  height: 100%;
+}

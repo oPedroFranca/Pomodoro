@@ -1,0 +1,55 @@
+.pomodoroDescription {
+  max-width: 620px;
+}
+
+.pomodoroDescription h1, h2, h3, h4, p, li, strong{
+  color: black;
+}
+
+.pomodoroDescription h1{
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.pomodoroDescription h2 {
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.pomodoroDescription h2::after {
+  content: '';
+  display: block;
+  width: 24px;
+  padding-top: 8px;
+  border-bottom: 4px solid var(--grey-color);
+  opacity: 0.6;
+}
+
+.pomodoroDescription p {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.pomodoroDescription p a{
+  color:  var(--light-grey-color);
+  font-weight: bold;
+}
+
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ol {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding-inline-start: 30px;
+}
+
+strong {
+  font-weight: bold;
+  color:  var(--grey-color);
+}
+

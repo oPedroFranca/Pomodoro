@@ -1,0 +1,115 @@
+header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 7vh;
+  margin: auto;
+  max-width: 620px;
+  min-height: 63px;
+}
+
+header h1{
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto;
+  padding-top: 10px;
+}
+
+header span{
+  background-color: white;
+  width: 90%;
+  height: 2px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.container {
+  min-width: 430px;
+  max-width: 620px;
+  width: 78%;
+  height: 93vh;
+
+}
+
+/* ------------ container do timer (00:00) ------------ */
+
+div.containerTimer {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: var(--grey-color);
+  height: 300px;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+div.containerTimer h1.timer {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+div.containerTimer div.buttons-options {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+/* ------------ Descrição------------ */
+
+div.description {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------- Footer------------- */
+
+footer {
+  display: grid;
+  text-align: center;
+  border-top: solid 2px rgb(226, 226, 226);
+  background-color: white;
+  height: 130px;
+}
+
+footer p {
+  margin: auto;
+}
+
+footer p.copyright {
+  color: rgb(160, 160, 160);
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+#icon-links ion-icon {
+  color: var(--main-color);
+  font-size: 40px;
+  margin: 0 5px;
+}
+
+#icon-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div .containerTimer {
+  transition: background-color 0.5s ease-in-out 0s;
+}
