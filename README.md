@@ -28,10 +28,10 @@ O projeto Pomodoro é uma aplicação front-end criado sozinho por mim, visando 
 * **Timer customizável.** intervalos de acordo com sua preferência.
 
 ### Front-End
-JavaScript
-HTML
-CSS
-ReactJs
+* JavaScript
+* ReactJs
+* HTML
+* CSS
 
 ## Como executar o projeto
 
