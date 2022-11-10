@@ -23,6 +23,32 @@ O projeto Pomodoro é uma aplicação front-end criado sozinho por mim, visando 
 
 ### Features
 
-* **Design responsivo**
-* **Transição de cores** desta maneira mudando o humor do site  
-* **Timer customizável** intervalos de acordo com sua preferência
+* **Design responsivo.**
+* **Transição de cores.** desta maneira mudando o humor do site.
+* **Timer customizável.** intervalos de acordo com sua preferência.
+
+### Front-End
+JavaScript
+HTML
+CSS
+ReactJs
+
+## Como executar o projeto
+
+Pré-requisitos: npm / yarn
+
+```bash
+# Clonar repositório
+  $ git clone https://github.com/oPedroFranca/Pomodoro.git
+  
+# Entrar na pasta do projeto
+  $ cd Pomodoro
+  
+# Instalar dependências
+  $ npm install
+
+# executar o projeto
+  $ npm run dev
+
+```
+
