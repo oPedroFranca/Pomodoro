@@ -49,6 +49,11 @@ Pré-requisitos: npm / yarn
 
 # executar o projeto
   $ npm run dev
-
 ```
+
+## Autor
+
+Pedro Henrique França Martins.
+
+https://www.linkedin.com/in/pedro-henrique-frança/
 
