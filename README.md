@@ -49,6 +49,8 @@ Pré-requisitos: npm / yarn
 
 # executar o projeto
   $ npm run dev
+  
+# entre na URL retornada (http://localhost:XXXX/)
 ```
 
 ## Autor
