@@ -40,7 +40,7 @@ function App() {
 
       <footer>
         <div id="icon-links">
-          <a href="https://github.com/Elhixir" target="_blank" rel="noreferrer">
+          <a href="https://github.com/oPedroFranca" target="_blank" rel="noreferrer">
             <ion-icon name="logo-github" />
           </a>
 
