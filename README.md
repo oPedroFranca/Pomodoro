@@ -35,7 +35,7 @@ O projeto Pomodoro é uma aplicação front-end criado sozinho por mim, visando 
 
 ## Como executar o projeto
 
-Pré-requisitos: npm / yarn
+Pré-requisitos: npm ^14.18.0 / yarn
 
 ```bash
 # Clonar repositório
