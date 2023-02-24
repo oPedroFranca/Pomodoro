@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-O projeto Pomodoro é uma aplicação front-end criado sozinho por mim, visando o aprendizado. O site tem o objetivo de administrar o tempo do usuário usando a tecnica pomodoro.
+O projeto Pomodoro é uma aplicação front-end criado sozinho por mim, visando o aprendizado. O site tem o objetivo de administrar o tempo do usuário usando a técnica pomodoro
 
 ### O que é pomodoro technique 
 
