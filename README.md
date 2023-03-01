@@ -57,5 +57,5 @@ Pré-requisitos: npm ^14.18.0 / yarn
 
 Pedro Henrique França Martins.
 
-https://www.linkedin.com/in/pedro-henrique-frança/
+https://www.linkedin.com/in/pedro-henrique-franca/
 
